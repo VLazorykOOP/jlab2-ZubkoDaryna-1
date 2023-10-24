@@ -44,8 +44,6 @@ public class Money {
 
         return new Money(resultHrywnia, resultCentsByte);
     }
-
-
     public int compareTo(Money other) {
         if (this.hryvnias < other.hryvnias) {
             return -1;
